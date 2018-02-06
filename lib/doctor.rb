@@ -3,11 +3,12 @@ class Doctor
   def initialize(name)
     @name=name
     @appointments= []
-  end 
+  end
   def appointments
     @appointments
   end
   def add_appointment(appointment)
-    @appointments << appointment 
+    @appointments << appointment
+  end
 
-end 
+end
